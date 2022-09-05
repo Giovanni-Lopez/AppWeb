@@ -62,3 +62,23 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Instalacion de Proyecto
+
+Hacer una copia del archivo .env.example y renombrarlo .env
+
+Instalar composer install
+
+Generar la llave del archivo .env -> php artisan key:generate y cambiar nombre de base de datos a appweb
+
+Crear la base de datos local en phpmyadmin, con el nombre de -> appweb con el cotejamiento -> utf8mb4_general_ci
+
+Realizar la migracion -> php artisan migrate
+
+Ejecutar el comendo -> npm install
+
+Ejecutar el comando -> npm run dev
+
+Ejecutar el comando -> php artisan storage:link
+
+Para levantar el proyecto ejecutar el comendo -> php artisan serve, y abrir la ruta http://127.0.0.1:8000/proyects
