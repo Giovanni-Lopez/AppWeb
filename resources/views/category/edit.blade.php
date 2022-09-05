@@ -21,7 +21,7 @@
 
                         </div>
                         <div class="my-2">
-                            <input type="submit" value="Update Proyect" class="btn btn-primary">
+                            <input type="submit" value="Update Category" class="btn btn-primary">
                         </div>
                     </form>
                 </div>
